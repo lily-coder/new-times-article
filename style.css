@@ -130,4 +130,120 @@
     width: auto;
   }
   
+  /* Main Page */
+
+main {
+    width: 60%;
+    margin: 1vh auto;
+    box-sizing: border-box;
+  }
+  
+  iframe {
+    width: 600px;
+    height: 319px;
+    border: 0;
+  }
+  
+  main > * {
+    grid-column: 2 / 2;
+  }
+  
+  .space {
+    grid-column: 2 / 3;
+  }
+  
+  .first-main-image {
+    grid-column: 1 / 4;
+    margin-bottom: 3vh;
+  }
+  
+  main h1 {
+    color: #121212;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin: 0;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid var(--border-gray);
+  }
+  
+  .h3-letter {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    width: 
+  }
+  
+  .social-icons i {
+    border: 1px solid var(--subtle-gray);
+    margin-right: 1vw;
+    padding: 6px 7px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: rgb(235, 230, 230);
+    box-sizing: border-box;
+  }
+  
+  .social-icons .fa-facebook-f {
+    padding: 6px 9px;
+  }
+  
+  .social-icons i:hover {
+    background-color: white;
+    border: 2px solid var(--border-gray);
+    cursor: pointer;
+  }
+  
+  .diagram-container {
+    width:800;
+    height:400;
+  }
+  
+  .sign-up {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .sign-up p {
+    margin-left: 0;
+    font-size: 17px;
+    font-weight: 400;
+    width: 85%;
+  }
+  
+  /* Article */
+  
+  main p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .medium {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  
+  .small {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  
+  .author a {
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+  }
+  
+  .author a:hover {
+    text-decoration: none;
+  }
   
