@@ -13,7 +13,6 @@ This is the first html-css project in the Microverse curriculum.
 
 - Html
 - Css
-- Flex
 
 ## Live Demo
 
