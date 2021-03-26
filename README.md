@@ -31,7 +31,7 @@ This is the first html-css project in the Microverse curriculum.
 
 - GitHub: [@githubhandle](@chukwuemeka1234)
 - Twitter: [@twitterhandle](@avc_victor)
-- LinkedIn: [LinkedIn](@Ani chukwuemeka)
+- LinkedIn: [LinkedIn] (@Ani chukwuemeka)
 
 ## 🤝 Contributing
 
