@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: nyt-franklin, helvetica, arial, "Lato" sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgb(90, 88, 88);
+    margin: 0;
+  }
+  
+  hr {
+    width: 100%;
+    color: var(--border-gray);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  
+  p,
+  h2 {
+    margin: 0;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  p > a {
+    color: var(--link-blue);
+    text-decoration: underline;
+  }
+  
+  p > a:hover {
+    text-decoration: none;
+  }
+  
+  button {
+    border: 1px solid #376f99;
+    border-radius: 3px;
+    background-color: #537994;
+    padding: 11px 12px 8px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    transition: all 0.6s ease 0s;
+  }
+  
+  button:hover {
+    border: 1px solid #326891;
+    background-color: #326891;
+    cursor: pointer;
+  }
+  
+  img {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  .gray,
+  .gray a {
+    color: #666;
+  }
+  
+  ion-icon {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 14px;
+    border-bottom: 2px solid var(--border-gray);
+    box-shadow: rgb(0 0 0 / 8%) 0 0 5px 5px;
+    margin-bottom: 3vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+  }
+  
+  .logo-center img {
+    width: 15em;
+    height: 1.8em;
+  }
+  
+  .head-left {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .head-left .fas {
+    margin-right: 1vw;
+    padding: 8px;
+  }
+  
+  .first-main-img {
+    width:900;
+    height:500;
+  }
+  
+  .head-left .fas:hover {
+    cursor: pointer;
+    background-color: rgb(214, 211, 211);
+  }
+  
+  header .logo {
+    height: 30px;
+    width: auto;
+  }
+  
+  
