@@ -388,10 +388,48 @@ main {
 
   /*  Footer  */
 
+
+.flex-container{
+display: flex;
+flex-direction: row;
+}
+
+.astro{
+  display: flex; 
+  flex-direction: column;
+}
+
+.more-astro{
+display: flex;
+flex-direction: column;
+}
+.astro-box{
+
+}
+.more-astro-one{
+  display: flex;
+  flex-direction: row;
+}
+.more-astro-two{
+  display: flex;
+  flex-direction: row;
+}
+.more-astro-three{
+  display: flex;
+  flex-direction: row;
+}
+.flex-container-aside{
+  position: absolute;
+  right: 0;
+  max-width: 350px;
+  font-size: 14px;
+}
 footer {
   margin: 2vh 6%;
 }
+.footer-nav{
 
+}
 .footer-hr {
   border-top: 2px solid var(--border-gray);
   border-bottom: 1px solid var(--border-gray);
